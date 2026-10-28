@@ -1,6 +1,2 @@
 #!/bin/bash
-python3 - <<'PY'
-name = r"""\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)"""
-with open(name, "w") as f:
-    f.write("Best School\n")
-PY
+echo 'Best School' > "\\*\\\\'\"Best School\"\\'\\\\*\$\\?\\*\\*\\*\\*\\*:)"
